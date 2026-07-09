@@ -1,0 +1,9 @@
+{
+    "name": "AlbumReview",
+    "short_name": "AlbumReview",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#e7fddf",
+    "theme_color:": "222222",
+    "description": "Album reviews",
+}
