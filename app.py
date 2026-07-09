@@ -8,7 +8,7 @@ from datetime import datetime
 app = Flask (__name__)
 app.secret_key = "supersecretkey" # Change later
 
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///tastetracker_ps.db"
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///albumreview_ps.db"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
 db = SQLAlchemy(app)
