@@ -26,8 +26,8 @@ class User(db.Model):
 class Review(db.Model):
     review_id = db.Column(db.Integer, primary_key=True)
     user_id = db.Column(db.Integer, db.ForeignKey("user.user_id"),nullable=False)
-    restaurant_name = db.Column(db.String(100), nullable=False)
-    cuisine_type = db.Column(db.String(50), nullable=False)
+    album_name = db.Column(db.String(100), nullable=False)
+    artist_name = db.Column(db.String(50), nullable=False)
     review_date = db.Column(db.Date, nullable=False)
     rating = db.Column(db.Integer, nullable=False)
     review_text = db.Column(db.Text, nullable=False)
