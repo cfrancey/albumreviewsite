@@ -1,5 +1,5 @@
 CREATE TABLE IF NOT EXISTS accounts (
-	userid integer NOT NULL,
+	user_id integer NOT NULL,
 	username varchar NOT NULL,
 	password varchar NOT NULL,
 	email varchar NOT NULL,
@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS accounts (
 );
 
 CREATE TABLE IF NOT EXISTS reviews (
-	reviewid integer NOT NULL,
+	review_id integer NOT NULL,
 	album_name varchar NOT NULL,
 	artist_name varchar NOT NULL,
 	rating integer NOT NULL,
