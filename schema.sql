@@ -15,7 +15,7 @@ CREATE TABLE IF NOT EXISTS reviews (
 	PRIMARY KEY (reviewid)
 );
 
-INSERT INTO customers (reviewid, album_name, artist_name, rating, review_text) VALUES
+INSERT INTO reviews (reviewid, album_name, artist_name, rating, review_text) VALUES
 	(1, 'I Against I', 'Bad Brains', 10, "Bad Brains at their best."),
 	(2, 'RAT WARS', 'HEALTH', 7, "The best of their Neo-Industrial efforts.")
   ;
